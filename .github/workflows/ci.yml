@@ -21,8 +21,6 @@ on:
         description: "racecar correlation token, echoed into the run name"
         type: string
         default: ""
-  schedule:
-    - cron: '0 2 * * *' # run daily at 02:00 am (UTC)
 
 
 env:
